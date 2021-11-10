@@ -491,7 +491,7 @@ class Utility(commands.Cog):
 <<<<<<< HEAD
     async def activity(self, ctx, activity_type:playing str.lower, *, message: str = "playing"):
 =======
-    async def activity(self, ctx, activity_type: str.lower, *, message: str = "DM Moi"):
+    async def activity(self, ctx, activity_type:"playing" str.lower, *, message: str = "DM Moi"):
 >>>>>>> parent of d9034e7 (Test)
         """
         Set an activity status for the bot.
