@@ -488,7 +488,7 @@ class Utility(commands.Cog):
 
     @commands.command(aliases=["presence"])
     @checks.has_permissions(PermissionLevel.ADMINISTRATOR)
-    async def activity(self, ctx, activity_type: str.lower, *, message: str = ""):
+    async def activity(self, ctx, activity_type: str.lower, *, message: str = "DM Moi"):
         """
         Set an activity status for the bot.
 
