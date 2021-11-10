@@ -29,7 +29,7 @@ class ConfigManager:
         "main_category_id": None,
         "fallback_category_id": None,
         "prefix": "?",
-        "mention": "@here",
+        "mention": "",
         "main_color": str(discord.Color.blurple()),
         "error_color": str(discord.Color.red()),
         "user_typing": False,
@@ -47,7 +47,7 @@ class ConfigManager:
         # updates
         "update_notifications": True,
         # threads
-        "sent_emoji": "\N{WHITE HEAVY CHECK MARK}",
+        "sent_emoji": "",
         "blocked_emoji": "\N{NO ENTRY SIGN}",
         "close_emoji": "\N{LOCK}",
         "use_user_id_channel_name": False,
@@ -114,12 +114,12 @@ class ConfigManager:
         "anon_tag": "Response",
         # react to contact
         "react_to_contact_message": None,
-        "react_to_contact_emoji": "\N{WHITE HEAVY CHECK MARK}",
+        "react_to_contact_emoji": "",
         # confirm thread creation
         "confirm_thread_creation": False,
         "confirm_thread_creation_title": "Confirm thread creation",
         "confirm_thread_response": "React to confirm thread creation which will directly contact the moderators",
-        "confirm_thread_creation_accept": "\N{WHITE HEAVY CHECK MARK}",
+        "confirm_thread_creation_accept": "",
         "confirm_thread_creation_deny": "\N{NO ENTRY SIGN}",
         # regex
         "use_regex_autotrigger": False,
