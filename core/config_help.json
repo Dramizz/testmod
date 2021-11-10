@@ -235,7 +235,7 @@
     ]
   },
   "sent_emoji": {
-    "default": "✅",
+    "default": "",
     "description": "This is the emoji added to the message when when a Modmail action is invoked successfully (ie. DM Modmail, edit message, etc.).",
     "examples": [
       "`{prefix}config set sent_emoji ✨`"
