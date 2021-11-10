@@ -528,6 +528,8 @@ class ModmailBot(commands.Bot):
     async def on_ready(self):
         """Bot startup, sets uptime."""
 
+        await client.change presence(status=discord.Status.idle, activity=discord.Game('Bonsoir'))
+
         # Wait until config cache is populated with stuff from db and on_connect ran
         await self.wait_for_connected()
 
