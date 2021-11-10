@@ -488,11 +488,8 @@ class Utility(commands.Cog):
 
     @commands.command(aliases=["presence"])
     @checks.has_permissions(PermissionLevel.ADMINISTRATOR)
-<<<<<<< HEAD
     async def activity(self, ctx, activity_type:playing str.lower, *, message: str = "playing"):
-=======
     async def activity(self, ctx, activity_type:"playing" str.lower, *, message: str = "DM Moi"):
->>>>>>> parent of d9034e7 (Test)
         """
         Set an activity status for the bot.
 
