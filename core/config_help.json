@@ -369,7 +369,7 @@
     ]
   },
   "thread_creation_response": {
-    "default": "\"The staff team will get back to you as soon as possible.\"",
+    "default": "\"Test\"",
     "description": "This is the message embed content sent to the recipient upon the creation of a new thread.",
     "examples": [
       "`{prefix}config set thread_creation_response You will be contacted shortly.`"
