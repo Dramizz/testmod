@@ -369,7 +369,7 @@
     ]
   },
   "thread_creation_response": {
-    "default": "\"Test\"",
+    "default": "\"Test2\"",
     "description": "This is the message embed content sent to the recipient upon the creation of a new thread.",
     "examples": [
       "`{prefix}config set thread_creation_response You will be contacted shortly.`"
