@@ -794,7 +794,7 @@ class Thread:
 
         return msg
 
-    async def reply(
+    async def r(
         self, message: discord.Message, anonymous: bool = False, plain: bool = False
     ) -> typing.Tuple[discord.Message, discord.Message]:
         if not message.content and not message.attachments:
